@@ -1,7 +1,23 @@
+How to setup Database:
+
+1. Connect to psql
+
+2. Create the database using the psql command CREATE DATABASE bookmark_manager;
+
+3. Connect to the database using the pqsl command \c bookmark_manager;
+
+4. Run the query we have saved in the file 01_create_bookmarks_table.sql
+
+
+
+
+
+USER STORYS:
+
 As a user,
 So I can remember what I’ve bookmarked already,
 I’d like to see a list of ALL my bookmarks
-git 
+
 As a user,
 So I can save a page I’d like to see later
 I’d like to add a new page to bookmarks
