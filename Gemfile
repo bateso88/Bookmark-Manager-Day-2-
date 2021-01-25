@@ -13,4 +13,4 @@ gem "shotgun"
 gem "sinatra"
 gem 'simplecov', require: false
 gem 'simplecov-console', require: false
-
+gem 'pg'

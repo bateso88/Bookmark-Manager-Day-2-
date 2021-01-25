@@ -6,6 +6,10 @@ describe Bookmark do
     expect(Bookmark.all).to be_a Array
   end
 
-  
+  it "should display Makers url" do
+    expect(Bookmark.all).to include('http://makersacademy.com')
+  end
+
+
 
 end
